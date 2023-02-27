@@ -4,10 +4,10 @@ import PropTypes from 'prop-types';
 import css from './feedbackOptions.module.css';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
-  console.log(options);
-  const feedbackBtn = options.map(item => {
+  const feedbackBtn = options.map((item, index) => {
     return (
       <button
+        key={index}
         className={css.btn}
         type="button"
         onClick={() => {
