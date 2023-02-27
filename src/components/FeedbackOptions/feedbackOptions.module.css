@@ -1,0 +1,13 @@
+.wrapper{
+	display: flex;
+	align-content: center;
+	gap: 20px;
+
+}
+
+.btn{
+	min-width: 100px;
+	padding: 12px;
+	border-radius: 10px;
+	border: 1px solid brown;
+}
